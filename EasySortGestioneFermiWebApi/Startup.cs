@@ -29,9 +29,7 @@ namespace EasySortGestioneFermiWebApi
                     .AllowAnyMethod()
                     .AllowAnyHeader());
             });
-
-
-            services.AddMvc(options => options.EnableEndpointRouting = false);
+                                   
 
             services.AddControllers();
 
@@ -51,8 +49,11 @@ namespace EasySortGestioneFermiWebApi
                 app.UseDeveloperExceptionPage();
             }
 
-          
-          
+            app.UseDefaultFiles();
+
+            app.UseStaticFiles();
+
+
             app.UseCorsMiddleware();
 
             app.UseCors("CorsPolicy");
