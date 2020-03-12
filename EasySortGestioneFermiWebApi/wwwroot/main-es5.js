@@ -4170,7 +4170,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
 
     var environment = {
       production: false,
-      apiUrl: 'https://localhost:44345/'
+      apiUrl: 'https://easysortgestionefermiwebapi.azurewebsites.net/'
     };
     /*
      * For easier debugging in development mode, you can import the following file
@@ -4180,6 +4180,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
      * on performance if an error is thrown.
      */
     // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+    //  apiUrl: 'https://localhost:44345/'
 
     /***/
   },

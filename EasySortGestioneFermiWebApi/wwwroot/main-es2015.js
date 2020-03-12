@@ -2068,7 +2068,7 @@ __webpack_require__.r(__webpack_exports__);
 
 const environment = {
     production: false,
-    apiUrl: 'https://localhost:44345/'
+    apiUrl: 'https://easysortgestionefermiwebapi.azurewebsites.net/'
 };
 /*
  * For easier debugging in development mode, you can import the following file
@@ -2078,6 +2078,7 @@ const environment = {
  * on performance if an error is thrown.
  */
 // import 'zone.js/dist/zone-error';  // Included with Angular CLI.
+//  apiUrl: 'https://localhost:44345/'
 
 
 /***/ }),

@@ -48,6 +48,12 @@ namespace EasySortGestioneFermiWebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+            else
+            {
+                app.UseHsts();
+
+            }
+
 
             app.UseDefaultFiles();
 
